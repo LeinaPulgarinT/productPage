@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: gray;
+}
+
+#header {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    font-size: 20px;
+    /* border-color: 3px solid green; */
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    border: 1px solid pink;
+}
+
+.title {
+    display: flex;
+    color: gray;
+}
+
+@media (max-width: 700px) {
+    .main .principal h1 {
+        font-size: 40px;
+    }
+}
+
+#nav-bar {
+    float: right;
+    margin-top: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+#nav-bar a {
+    color: gray;
+    /* flex-direction: row;
+    justify-content: space-around; */
+    display: flex;
+    font-size: 20px;
+}
+
+#nav-bar a:hover {
+    color: pink;
+    font-size: 25px;
+}
+
+#header nav ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 3px solid black; */
+    /* width: 100%;
+    margin: auto; */
+}
+
+#header nav ul li a {
+    text-decoration: none;
+}
+
+.main {
+    font-size: 20px;
+    /* border: 3px solid green; */
+}
+
+.principal {
+    background-image: url(../img/9.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.principal h1 {
+    position: relative;
+    top: 40%;
+    color: grey;
+    font-size: 80px;
+    text-align: center;
+    font-style: oblique;
+    /* font-family: "Caveat"; */
+    font-family: "Kaushan Script";
+}
+
+.presentacion {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.presentacion h2 {
+    color: pink;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.presentacion p {
+    margin-bottom: 20px;
+}
+
+.presentacion article {
+    margin: 90px;
+}
+
+.presentacion img {
+    width: 100%;
+    height: 100%;
+    max-width: 360px;
+    max-height: 360px;
+    display: flex;
+    background-color: gray;
+    /* border: 6px solid brown; */
+    border-radius: 50%;
+    /* height: 200px; */
+}
+
+.container1 {
+    /* border: 3px solid red; */
+    width: 50%;
+    /* height: 100%; */
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.diademas {
+    /* height: 40%; */
+    width: auto;
+    /* border: 3px solid yellow; */
+}
+
+.container2 {
+    /* border: 3px solid red; */
+    width: 50%;
+    /* height: 100%; */
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.comprar {
+    position: relative;
+    top: 100px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comprar h3 {
+    background: pink;
+    color: white;
+    font-weight: normal;
+}
+
+.comprar article {
+    border: 3px solid pink;
+    margin: 30px;
+}
+
+.comprar img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
+}
+
+button {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    background-color: pink;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color: pink;
+    font-size: 25px;
+}
+
+.final {
+    position: relative;
+    /* border: 3px solid yellow; */
+    background: url(../img/9.jpg);
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 100%;
+    width: 100%;
+    top: 200px;
+    padding-bottom: 100px;
+}
+
+.icon-location,
+.icon-phone,
+.icon-clock {
+    font-size: 80px;
+    color: grey;
+}
+
+.container1 {
+    top: 50px;
+    position: relative;
+    display: block;
+    margin: auto;
+    justify-content: center;
+}
+
+.container1 .article-button {
+    position: relative;
+    /* display: block;
+    margin: auto; */
+}
+
+.container1 .enviar {
+    display: block;
+    margin: auto;
+    background-color: violet;
+}
+
+
+/* poner un h1 en email y ponerle estas mismas caracteristicas */
+
+.container1 .article-button input {
+    /* position: relative;
+    left: 30%; */
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.container1 button {
+    position: relative;
+    right: 20%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container2 {
+    top: 50px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container2 article {
+    /* border: 3px solid orange; */
+    margin: 15px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+    /* color: white; */
+}
+
+.footer {
+    height: 200px;
+}
+
+.footer h1 {
+    text-align: center;
+    top: 80%;
+    position: relative;
+    color: grey;
+    font-size: 20px;
+}
