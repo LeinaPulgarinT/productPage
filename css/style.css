@@ -229,36 +229,39 @@ button:hover {
 }
 
 .container1 .article-button {
-    position: relative;
-    /* display: block;
-    margin: auto; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.container1 .enviar {
+
+/* .container1 .enviar {
     display: block;
     margin: auto;
     background-color: violet;
-}
+} */
 
 
 /* poner un h1 en email y ponerle estas mismas caracteristicas */
 
-.container1 .article-button input {
-    /* position: relative;
-    left: 30%; */
+
+/* .container1 .article-button input {
+    position: relative;
+    left: 30%;
     font-size: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
-    padding-right: 50px;
-    padding-left: 50px;
-}
+    padding-right: 20px;
+    padding-left: 20px;
+} */
 
-.container1 button {
+
+/* .container1 button {
     position: relative;
     right: 20%;
     padding-left: 30px;
     padding-right: 30px;
-}
+} */
 
 .container2 {
     top: 50px;
